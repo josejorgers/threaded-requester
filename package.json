@@ -1,5 +1,5 @@
 {
-  "name": "threaded-request",
+  "name": "threaded-requester",
   "version": "1.0.0",
   "description": "A simple tool to simulate HTTP requests. Recommended as a fast way to deal with token auth and other requests that need to be executed every certain ammount of time.",
   "main": "threaded-requester.js",
