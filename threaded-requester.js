@@ -2,16 +2,19 @@
 
 export default class Requester{
 
-    opts = null;
-    url = null;
-    stop = false;
-    timeout = 60000;
+    opts;
+    url;
+    stop;
+    timeout;
 
     constructor(url, opts=null){
         this.url = url
         this.opts = opts
+        this.stop = false;
         if(opts.timeout)
             this.timeout = this.opts.timeout
+        else
+            this.timeout = 60000;
     }
 
     configBuilder = () => {
