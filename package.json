@@ -1,0 +1,33 @@
+{
+  "name": "threaded-request",
+  "version": "1.0.0",
+  "description": "A simple tool to simulate HTTP requests. Recommended as a fast way to deal with token auth and other requests that need to be executed every certain ammount of time.",
+  "main": "threaded-requester.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josejorgers/threaded-requester.git"
+  },
+  "keywords": [
+    "http",
+    "request",
+    "parallelized",
+    "requests",
+    "javascript",
+    "threads",
+    "token",
+    "authentication",
+    "recurrent",
+    "requests",
+    "programmed",
+    "requests"
+  ],
+  "author": "Jose J. Rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josejorgers/threaded-requester/issues"
+  },
+  "homepage": "https://github.com/josejorgers/threaded-requester#readme"
+}
